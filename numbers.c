@@ -25,7 +25,7 @@ int probability(int per_cent)//概率(百分数)
 	}
 }
 
-int odd_number(int number)//判断奇数
+int oddNumber(int number)//判断奇数
 {
 	int remainder = 0;//余数
 	remainder = number % 2;//数字除以2的余数
@@ -40,7 +40,7 @@ int odd_number(int number)//判断奇数
 	}
 }
 
-int even_number(int number)//判断偶数
+int evenNumber(int number)//判断偶数
 {
 	int remainder = 0;//余数
 	remainder = number % 2;//数字除以2的余数
