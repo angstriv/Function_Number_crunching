@@ -54,3 +54,12 @@ int evenNumber(int number)//判断偶数
 		return 0;
 	}
 }
+
+void intSwap(int* num1_p, int* num2_p)
+{
+	int tmp = 0;//中间键,辅助作用
+	
+	tmp = *num1_p;//数子1赋给中间键
+	*num1_p = *num2_p;//数子2赋给数子1
+	*num2_p = tmp;//中间键赋给数子2
+}
