@@ -5,4 +5,5 @@
 2.判断你选择的概率是否抽中(Determine whether the probability you chose is drawn)
 3.判断一个数是否是奇数(Determine if a number is odd number)
 4.判断一个数是否是偶数(Determine if a number is even number)
-5.交换2个整型数字(Swap two integer numbers)
+5.判断一个数是否是质数(Determine whether a number is prime)
+6.交换2个整型数字(Swap two integer numbers)
