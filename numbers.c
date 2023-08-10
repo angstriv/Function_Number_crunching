@@ -1,6 +1,7 @@
 #include <time.h>
 #include <stdlib.h>//rand
-
+#include <stdio.h>
+#include "numbers.h"
 
 int randnum(int minimum, int maximum)//随机值函数(最小值,最大值)
 {
@@ -53,6 +54,23 @@ int evenNumber(int number)//判断偶数
 	{
 		return 0;
 	}
+}
+
+int primeNumber(int number)//判断质数
+{
+	int divisor = 0;//除数
+	int remainder = 0;//余数
+
+	//数字从2开始依次往后除，当i等于本数时，则本数为质数
+	for (divisor = 2; divisor < number; divisor += 1)
+	{
+		remainder = number % divisor;
+		if (remainder == 0)
+		{
+			return 0;//数字可以被除尽，不是质数
+		}
+	}
+	return 1;//数字不可以被除尽，是质数
 }
 
 void intSwap(int* num1_p, int* num2_p)
