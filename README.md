@@ -6,4 +6,4 @@
 3.判断一个数是否是奇数(Determine if a number is odd number)
 4.判断一个数是否是偶数(Determine if a number is even number)
 5.判断一个数是否是质数(Determine whether a number is prime)
-6.交换2个整型数字(Swap two integer numbers)
+6.交换2个任意类型的数据(Exchange 2 arbitrary types of data)
