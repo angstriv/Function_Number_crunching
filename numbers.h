@@ -5,4 +5,4 @@ int probability(int per_cent);//概率(百分数)
 int oddNumber(int number);//判断奇数
 int evenNumber(int number);//判断偶数
 int primeNumber(int number);//判断质数
-void intSwap(int* num1_p, int* num2_p);//交换2个整型数字
+int swap(void* lhs, void* rhs, size_t count);//交换2个任意类型数据
